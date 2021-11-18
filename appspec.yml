@@ -22,8 +22,13 @@ os: linux
 #   "files" section altogether. A blank or incomplete "files" section
 #   may cause associated deployments to fail.
 files:
-  - source: /
-    destination: /home/ec2-user/nodejs
+  - source: /app.js
+    destination: /home/ec2-user/
+permissions:
+  - object: /home/
+    owner: root
+    group: root
+    mode: 777
 # For deployments to Amazon Linux and Ubuntu Server instances,
 #   you can specify a "permissions" 
 #   section here that describes special permissions to apply to the files 
