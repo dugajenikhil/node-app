@@ -22,7 +22,7 @@ os: linux
 #   "files" section altogether. A blank or incomplete "files" section
 #   may cause associated deployments to fail.
 files:
-  - source: /app.js
+  - source: /
     destination: /home/ec2-user/
 permissions:
   - object: /home/
