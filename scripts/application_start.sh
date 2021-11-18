@@ -1,6 +1,4 @@
 #!/bin/bash
 
-curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
-sudo yum install nodejs -y
-node --version
+echo "application_start started"
 npm run build
