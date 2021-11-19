@@ -4,7 +4,7 @@ let ip_add = require("ip");
 
 app.get('/', (req, res) => {
     let obj = {
-        msg: 'Fantastic!!! You ddeployed it... Very Good & Keep it up...',
+        msg: 'Fantastic!!! You deployed it on ECS... Very Good & Keep it up...',
         server_ip: ip_add.address()
     }
     console.log(obj)
