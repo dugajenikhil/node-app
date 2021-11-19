@@ -99,6 +99,6 @@ Resources:
       Properties:
         TaskDefinition: <TASK_DEFINITION>
         LoadBalancerInfo:
-          ContainerName: "node-app-container"
+          ContainerName: "node-app"
           ContainerPort: 8080
         PlatformVersion: "LATEST"
