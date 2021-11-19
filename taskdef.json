@@ -8,13 +8,18 @@
       "essential": true,
       "portMappings": [
         {
-          "containerPort": 8080,
+          "containerPort": 80,
           "protocol": "tcp"
         }
       ]
     }
   ],
+  "requiresCompatibilities": [
+    "FARGATE"
+  ],
+  "networkMode": "awsvpc",
+  "cpu": "256",
+  "memory": "512",
   "family": "node-app-td",
-  "taskRoleArn": "arn:aws:iam::322926992319:role/ecsTaskExecutionRole",
-  "networkMode": "awsvpc"
+  "taskRoleArn": "arn:aws:iam::322926992319:role/ecsTaskExecutionRole"
 }

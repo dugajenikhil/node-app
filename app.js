@@ -29,7 +29,7 @@ app.get('/service-b', (req, res) => {
     res.send(obj)
 })
 
-const port = 8080
+const port = 80
 app.listen(port, () => {
     console.log(`Example app listening at ${port}`)
 })
