@@ -1,4 +1,4 @@
-FROM 322926992319.dkr.ecr.us-east-1.amazonaws.com/docker/nodejs:10.15-alpine
+FROM node:10.15-alpine
 
 WORKDIR /app
 
