@@ -10,4 +10,5 @@ COPY . /app
 
 EXPOSE 80
 
-CMD ["npm", "run", "build"]
+CMD ["npm", "start"]
+
